@@ -1,27 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
 
 * {
-  margin: 0;
+  margin: 0px;
+  
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 7fr 2fr 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 3px;
 
-  margin: 10px;
-}
+
 
 body {
+  
   background-color: rgba(2, 48, 71, 1);
   color: rgb(239, 183, 104);
   font-family: "Roboto Mono", Courier, monospace;
   font-weight: 400;
   font-size: 14px;
 }
+
+.container {
+  
+ 
+  grid-template-rows: 3rem 4rem 19.5rem 7rem 3rem;
+}
 main {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,12 +32,13 @@ main {
 }
 
 .nav-bar {
+
   display: flex;
   flex-direction: row;
   background-color: rgb(239, 183, 104);
   color: rgba(2, 48, 71, 1);
   height: 3rem;
-  width: 100%;
+ 
 
   display: flex;
   justify-content: space-evenly;
@@ -46,9 +49,13 @@ main {
   text-align: center;
 }
 h1 {
+  
   font-size: 4rem;
 }
 
+posts-cards{
+  grid-area: 3 / 1 / 4 / 2;
+}
 
 
 .card {
@@ -134,6 +141,7 @@ h1 {
 }
 
 form {
+  grid-area: 4 / 1 / 5 / 2;
   margin: 0.2rem;
   padding: 0.5rem;
   border-radius: 2%;
@@ -161,5 +169,15 @@ form button {
 
 
 .footer{
-    
+  grid-area: 5 / 1 / 6 / 2;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(239, 183, 104);
+  color: rgba(2, 48, 71, 1);
+  height: 3rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
