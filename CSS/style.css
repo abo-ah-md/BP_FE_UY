@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+@import"/CSS/cards.css";
+@import"/CSS/navbar-footer.css";
+@import"/CSS/post.css";
 
 * {
   margin: 0px;
@@ -29,17 +32,7 @@ body {
   grid-auto-rows: minmax(3rem, auto);
 }
 
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(239, 183, 104);
-  color: rgba(2, 48, 71, 1);
-  height: 3rem;
 
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 .center-line {
   text-align: center;
@@ -48,99 +41,11 @@ h1 {
   font-size: 4rem;
 }
 
-.posts-cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.card {
-  margin: 2rem;
-  color: rgba(2, 48, 71, 1);
-  padding: 1rem;
-  width: 20rem;
 
-  display: flex;
-  flex-wrap: wrap;
-  border: 3px solid rgba(248, 246, 246, 0.342);
-  flex-direction: column;
-  background-color: rgb(239, 183, 104);
-  border-radius: 10%;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  -ms-border-radius: 10%;
-  -o-border-radius: 10%;
-}
 
-.card-header {
-  justify-self: center;
-  align-self: center;
-  margin: 0.5rem;
-}
-.card-header a {
-  color: rgba(2, 48, 71, 1);
-  text-decoration: none;
-}
 
-.auther {
-  margin: 10px 0px;
-  font-size: 0.9rem;
-}
 
-.card-img {
-  width: 100%;
-  border-radius: 5%;
-  -webkit-border-radius: 5%;
-  -moz-border-radius: 5%;
-  -ms-border-radius: 5%;
-  -o-border-radius: 5%;
-}
-
-.card-description {
-  font-size: 1em;
-  text-align: left;
-  margin: 10px;
-}
-
-.key-words-label {
-  position: relative;
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-
-.key-words-label::after {
-  position: absolute;
-
-  content: "";
-
-  width: 310px;
-  height: 0.1rem;
-  top: 27px;
-  right: 1px;
-  background-color: rgba(248, 246, 246, 0.342);
-}
-
-.key-words-box {
-  display: flex;
-  justify-content: space-around;
-}
-
-.key-words {
-  text-align: center;
-  display: inline-block;
-  width: fit-content;
-  border-radius: 10px;
-  padding: 7px;
-
-  height: 10px;
-  background-color: rgb(188, 143, 81);
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
 .form-box {
   margin-top: 5rem;
   display: flex;
@@ -176,21 +81,6 @@ form button {
   -o-border-radius: 12%;
 }
 
-.footer {
-  margin-top: 30px;
-  
-
-  display: flex;
-  flex-direction: row;
-  background-color: rgb(239, 183, 104);
-  color: rgba(2, 48, 71, 1);
-  height: 5rem;
-  width: 100%;
-
-
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 .post-header {
   
@@ -237,38 +127,7 @@ form button {
   line-height: 4vh;
 }
 
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.main-post-img {
-  margin: 5px;
-  width: 90vw;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-}
-.share-post{
-  display: flex;
-  align-items: center;
-  justify-content:space-around;
-  width: 100px;
-  padding: 10px;
-  border: 1px solid rgb(242, 205, 153);
-  border-radius: 5vh;
-  -webkit-border-radius: 5vh;
-  -moz-border-radius: 5vh;
-  -ms-border-radius: 5vh;
-  -o-border-radius: 5vh;
-}
-.read-more{
-  margin: 3rem;
-  font-size: 3vh;
-}
 @media screen and (min-width: 480px) {
   .posts-cards {
     flex-direction: row;
