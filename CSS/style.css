@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;800&display=swap");
-@import "/CSS/cards.css";
-@import "/CSS/navbar-footer.css";
-@import "/CSS/post.css";
-@import "/CSS/form.css";
-@import "/CSS/animation.css";
+@import "BP_FE_UY/CSS/cards.css";
+@import "BP_FE_UY/CSS/navbar-footer.css";
+@import "BP_FE_UY/CSS/post.css";
+@import "BP_FE_UY/CSS/form.css";
+@import "BP_FE_UY/CSS/animation.css";
 
 * {
   margin: 0px;
