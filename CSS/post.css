@@ -1,33 +1,89 @@
 
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
+.main-post-img {
+  margin: 5px;
+  width: 90vw;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+
+  animation: pop  1s forwards;
+  -webkit-animation: pop  1s ease-in-out forwards;
+}
+
+.share-post-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.share-post {
+  font-size: 1.2vw;
+  text-align: center;
+  width: fit-content;
+  padding: 30px;
+  border: 1px solid rgb(242, 205, 153);
+  border-radius: 5vh;
+  -webkit-border-radius: 5vh;
+  -moz-border-radius: 5vh;
+  -ms-border-radius: 5vh;
+  -o-border-radius: 5vh;
+}
+
+.read-more {
+  margin: 3rem;
+  font-size: 3vh;
+}
+
+.post-header {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 6vh;
+  animation: pop  1s forwards;
+  -webkit-animation: pop  0.8s ease-in-out forwards;
+}
+
+.author-Info {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:10px;
+
+  padding: 5px;
+  animation: pop  1s forwards;
+  -webkit-animation: pop  1s ease-in-out forwards;
+
+}
+
+.author-avatar {
+  box-shadow: 3px 3px rgb(6, 30, 41);
+  margin: 10px;
+  width: 10vh;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.author-name {
+  width: fit-content;
+  margin-bottom: 1%;
+  box-shadow: 0px 2px  rgb(188, 143, 81);
   
-  .main-post-img {
-    margin: 5px;
-    width: 90vw;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-  }
-  .share-post{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    width: 100px;
-    padding: 10px;
-    border: 1px solid rgb(242, 205, 153);
-    border-radius: 5vh;
-    -webkit-border-radius: 5vh;
-    -moz-border-radius: 5vh;
-    -ms-border-radius: 5vh;
-    -o-border-radius: 5vh;
-  }
-  .read-more{
-    margin: 3rem;
-    font-size: 3vh;
-  }
+}
+
+.author-title {
+}
+
+.author-position {
+}
+
+.post-content {
+  margin: 5rem;
+  font-size: 2.5vh;
+  line-height: 4vh;
+}

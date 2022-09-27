@@ -1,0 +1,36 @@
+.form-box {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+    font-size: 2rem;
+  width: fit-content;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 2%;
+  border: 1px solid rgb(242, 205, 153);
+  box-shadow: 3px 3px rgb(6, 30, 41);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
+form input,
+form button {
+  border: 0;
+  width: 20rem;
+  height: 30px;
+ 
+  background-color: rgb(242, 205, 153);
+  color: rgb(2, 48, 71);
+  
+}

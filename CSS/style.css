@@ -1,11 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
-@import"/CSS/cards.css";
-@import"/CSS/navbar-footer.css";
-@import"/CSS/post.css";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700;800&display=swap");
+@import "/CSS/cards.css";
+@import "/CSS/navbar-footer.css";
+@import "/CSS/post.css";
+@import "/CSS/form.css";
+@import "/CSS/animation.css";
 
 * {
   margin: 0px;
   scroll-behavior: smooth;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -18,10 +25,9 @@ a {
 }
 
 body {
-  
   background-color: rgba(2, 48, 71, 1);
   color: rgb(239, 183, 104);
-  font-family: "Roboto Mono", Courier, monospace;
+  font-family: "Dosis", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -32,8 +38,6 @@ body {
   grid-auto-rows: minmax(3rem, auto);
 }
 
-
-
 .center-line {
   text-align: center;
 }
@@ -43,89 +47,12 @@ h1 {
 
 
 
-
-
-
-.form-box {
-  margin-top: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-form {
-  width: fit-content;
-  margin: 0.2rem;
-  padding: 0.5rem;
-  border-radius: 2%;
-  border: 1px solid rgb(242, 205, 153);
-  display: flex;
-  flex-wrap: wrap;
+.flex-designsys{
   flex-direction: column;
-  justify-content: center;
-
-  -webkit-border-radius: 2%;
-  -moz-border-radius: 2%;
-  -ms-border-radius: 2%;
-  -o-border-radius: 2%;
-}
-
-form input,
-form button {
-  width: fit-content;
-  border-radius: 12%;
-  background-color: rgb(242, 205, 153);
-  color: rgb(2, 48, 71);
-  -webkit-border-radius: 12%;
-  -moz-border-radius: 12%;
-  -ms-border-radius: 12%;
-  -o-border-radius: 12%;
+  gap: 50px;
 }
 
 
-.post-header {
-  
-  margin-top: 3rem;
-  text-align: center;
-  font-size: 6vh;
-}
-
-.author-Info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 10px;
-  padding: 5px;
-  
-  -webkit-border-radius: 1vh;
-  -moz-border-radius: 1vh;
-  -ms-border-radius: 1vh;
-  -o-border-radius: 1vh;
-}
-
-.author-avatar{
-  margin: 10px;
-  width: 10vh;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-.author-name{
-
-}
-
-.author-title {
-}
-.author-position {
-}
-
-.post-content{
-  margin: 5rem;
-  font-size: 2.5vh;
-  line-height: 4vh;
-}
 
 
 @media screen and (min-width: 480px) {
@@ -134,9 +61,7 @@ form button {
   }
 
   .author-Info {
-
-   display: block;
-   
+    display: block;
   }
 
   .post-header {

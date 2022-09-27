@@ -1,38 +1,36 @@
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(239, 183, 104);
-    color: rgba(2, 48, 71, 1);
-    height: 3rem;
-  
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(239, 183, 104);
+  box-shadow: 0px 0px 130px  rgb(188, 143, 81);
+  color: rgba(2, 48, 71, 1);
+  height: 3rem;
 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.footer {
+  margin-top: 30px;
 
-  .footer {
-    margin-top: 30px;
-    
-  
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(239, 183, 104);
-    color: rgba(2, 48, 71, 1);
-    height: 5rem;
-    width: 100%;
-  
-  
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .footer-box{
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-  }
-  
-  .footer-box-DS{
-    position: absolute;
-  }
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(239, 183, 104);
+  color: rgba(2, 48, 71, 1);
+  box-shadow: 0px 0px 7px rgb(188, 143, 81);
+  height: 5rem;
+  width: 100%;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-box {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-box-DS {
+  position: absolute;
+}
