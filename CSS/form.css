@@ -6,7 +6,7 @@
   justify-content: center;
 }
 form {
-    font-size: 2rem;
+  font-size: 3rem;
   width: fit-content;
   margin: 0.2rem;
   padding: 0.5rem;
@@ -14,7 +14,7 @@ form {
   border: 1px solid rgb(242, 205, 153);
   box-shadow: 3px 3px rgb(6, 30, 41);
   display: flex;
-  flex-wrap: wrap;
+
   flex-direction: column;
   justify-content: center;
 
@@ -29,8 +29,7 @@ form button {
   border: 0;
   width: 20rem;
   height: 30px;
- 
+
   background-color: rgb(242, 205, 153);
   color: rgb(2, 48, 71);
-  
 }

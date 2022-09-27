@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  animation: pop 1s forwards;
+  -webkit-animation: pop 1s ease-in-out forwards;
 }
 
 .card {
@@ -21,10 +23,18 @@
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
-  animation: pop  1s forwards;
-  -webkit-animation: pop  1s ease-in-out forwards;
 }
 
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.349);
+  animation: scale ease-in-out 1s;
+  transition: ease-out;
+  -webkit-transition: ease-out;
+  -moz-transition: ease-out;
+  -ms-transition: ease-out;
+  -o-transition: ease-out;
+  -webkit-animation: scale ease-in-out 1s;
+}
 
 .card-header {
   justify-self: center;

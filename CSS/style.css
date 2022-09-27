@@ -43,50 +43,63 @@ body {
 }
 h1 {
   font-size: 4rem;
+  letter-spacing: 5px;
 }
 
+.blogname-rts {
+  animation: title-rts 1s ease-in-out forwards;
+}
 
-
-.flex-designsys{
+.flex-designsys {
   flex-direction: column;
-margin-top: 50px;
+  margin-top: 50px;
+ 
 }
-.Typography{
+.Typography {
   letter-spacing: 0.5rem;
+  animation: pop 1s forwards;
+  -webkit-animation: pop 1s ease-in-out forwards;
 }
-.font-family-text{
+.font-family-text {
+  animation: pop 1s forwards;
+  -webkit-animation: pop 1.2s ease-in-out forwards;
   margin-bottom: 20px;
   margin-top: 10px;
   text-align: center;
-width: 5rem;
-color: rgb(2, 48, 71);
-background-color: rgb(239, 183, 104);
+  width: 5rem;
+  color: rgb(2, 48, 71);
+  background-color: rgb(239, 183, 104);
 
-box-shadow: 5px 5px   rgb(1, 24, 36);
+  box-shadow: 5px 5px rgb(1, 24, 36);
 }
 
-.primary{
+.primary {
+  animation: pop 1.3s forwards;
+  -webkit-animation: pop 1.3s forwards;
   text-align: center;
   font-size: 1.5rem;
   width: 5rem;
   padding: 10px;
   color: rgb(2, 48, 71);
-background-color: rgb(239, 183, 104);
-box-shadow: 5px 5px   rgb(1, 24, 36);
-
+  background-color: rgb(239, 183, 104);
+  box-shadow: 5px 5px rgb(1, 24, 36);
 }
-.primary2{
+.primary2 {
+  animation: pop 1.4s forwards;
+  -webkit-animation: pop 1.4s forwards;
   margin-top: 10px;
   text-align: center;
   font-size: 1.5rem;
   width: 6rem;
   padding: 10px;
   color: rgb(239, 183, 104);
-background-color:rgb(2, 48, 71); 
-box-shadow: 5px 5px   rgb(1, 24, 36);
+  background-color: rgb(2, 48, 71);
+  box-shadow: 5px 5px rgb(1, 24, 36);
 }
 
-.secondary-accent{
+.secondary-accent {
+  animation: pop 1.5s forwards;
+  -webkit-animation: pop 1.5s forwards;
   margin-left: 10px;
   margin-top: 10px;
   text-align: center;
@@ -94,21 +107,22 @@ box-shadow: 5px 5px   rgb(1, 24, 36);
   width: 6rem;
   padding: 10px;
   color: rgb(2, 48, 71);
-background-color: rgb(187, 142, 81);
-box-shadow: 5px 5px   rgb(1, 24, 36);
+  background-color: rgb(187, 142, 81);
+  box-shadow: 5px 5px rgb(1, 24, 36);
 }
 
-.secondary-accent2{
+.secondary-accent2 {
+  animation: pop 1.6s forwards;
+  -webkit-animation: pop 1.6s forwards;
+  margin-left: 10px;
   margin-top: 10px;
   text-align: center;
   font-size: 1.5rem;
   width: 6rem;
   padding: 10px;
   color: rgb(239, 183, 104);
-background-color: rgb(187, 142, 81);
-box-shadow: 5px 5px   rgb(1, 24, 36);
+  background-color: rgb(1, 24, 36);
 }
-
 
 @media screen and (min-width: 480px) {
   .posts-cards {

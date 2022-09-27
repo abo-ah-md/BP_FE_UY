@@ -1,14 +1,17 @@
 .nav-bar {
-  display: flex;
-  flex-direction: row;
+  position: sticky;
+  top: 0;
   background-color: rgb(239, 183, 104);
-  box-shadow: 0px 0px 130px  rgb(188, 143, 81);
   color: rgba(2, 48, 71, 1);
   height: 3rem;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 1;
+  border-bottom: 3px solid rgb(241, 203, 151);
+  box-shadow: 0px 0px 130px rgb(188, 143, 81);
+  animation: show-boxshadow ease-in-out 1s forwards;
+  -webkit-animation: show-boxshadow ease-in-out 1s forwards;
 }
 
 .footer {
@@ -25,6 +28,7 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
 .footer-box {
   position: relative;
   bottom: 0px;
@@ -32,5 +36,5 @@
 }
 
 .footer-box-DS {
-  position: absolute;
+  position: relative;
 }
