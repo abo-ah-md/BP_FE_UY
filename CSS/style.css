@@ -136,4 +136,8 @@ h1 {
   .post-header {
     margin-top: 5rem;
   }
+
+  .share-post {
+    font-size: 2vw;
+  }
 }
