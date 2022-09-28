@@ -50,8 +50,13 @@ h1 {
   animation: title-rts 1s ease-in-out forwards;
 }
 
-.flex-designsys {
-  flex-direction: column;
+.grid-designsys {
+  
+  display: grid;
+  place-items:  center;
+  grid-template-columns: 1fr;
+  grid-row: 1fr 1fr 1fr  ;
+
   margin-top: 50px;
  
 }
